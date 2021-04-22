@@ -66,6 +66,11 @@
 	</dependencies>
 	<build>
   <plugins>
+   <plugin>
+        <groupId>org.codehaus.sonar</groupId>
+        <artifactId>sonar-maven-plugin</artifactId>
+        <version>2.5</version>
+      </plugin>
       <plugin>
           <groupId>org.jacoco</groupId>
           <artifactId>jacoco-maven-plugin</artifactId>
